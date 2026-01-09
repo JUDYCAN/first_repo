@@ -1,0 +1,27 @@
+# PyTorch (기존 유지)
+--extra-index-url https://download.pytorch.org/whl/cu128
+torch==2.7.1+cu128
+torchvision==0.22.1+cu128
+
+# Web Framework & DB
+streamlit==1.45.1
+sqlmodel==0.0.24
+
+# AI Models (NLP/Vision)
+transformers==4.40.0
+sentence-transformers==3.0.0
+sentencepiece==0.2.0
+soynlp==0.0.493
+
+# [중요] PaddleOCR 관련 - CPU 버전으로 변경하여 에러 해결
+paddlepaddle==2.6.2
+paddleocr>=2.7.0
+
+# Image & Math
+pillow==11.0.0
+opencv-python==4.10.0.84
+numpy==1.26.4
+scikit-learn==1.5.0
+
+# 추가해야 할 항목
+protobuf==3.20.3
